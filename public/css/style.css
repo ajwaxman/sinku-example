@@ -1,0 +1,319 @@
+body {
+  background: white;
+  /*background: blue;*/
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  min-width: 960px;
+}
+
+.float-left {
+  float: left;
+}
+
+
+
+/*************
+*** HEADER ***
+**************/
+
+.header {
+  width: 960px;
+  background: white;
+  height: 60px;
+  margin: 0 auto;
+}
+
+header img {
+  padding-top: 15px;
+  padding-left: 0px;
+  width: 110px;
+}
+
+.image-div {
+  float: left;
+}
+
+header ul {
+  float: left;
+  padding-left: 30px;
+  margin-top: 12px; 
+}
+
+header ul&:hover {
+  background: #316EB5;
+}
+
+.nav-pills>li {
+  background: white;
+  margin-right: 10px;
+  border: solid 1px white;
+}
+
+.nav-pills>li>a {
+  color: #316EB5;
+}
+
+#login-button {
+  padding-right: 5px;
+  padding-left: 5px;
+  background: #316EB5;
+}
+
+#login-button>a {
+  color: white;
+}
+
+.login>li {
+  border: solid 1px #316EB5;
+}
+
+.nav>li>a:hover {
+  background-color: white;
+  color: #316EB5;
+}
+
+.login>li:hover {
+  background: #316EB5;
+  color: white;
+}
+
+.login>li>a:hover {
+  background: #316EB5;
+  color: white;
+}
+
+.nav-pills>li:hover {
+  border: solid 1px #316EB5;
+}
+
+#signup-button {
+  background: #27ae60;
+  border: solid 1px #27ae60;
+}
+
+#signup-button>a {
+  color: white;
+}
+
+#signup-button>a:hover {
+  background: #27ae60;
+}
+
+/*************
+*** Search ***
+**************/
+
+.search {
+  width: 100%;
+  height: 520px;
+  background: url('../images/super-bowl.jpg') no-repeat center center;
+  background-size: 100% auto;
+  text-align: center;
+}
+
+.search h1 {
+  margin: 0;
+  padding-top: 190px;
+  font-family: Varela;
+  color: white;
+  font-size: 55px;
+}
+
+.form-search {
+  padding-top: 45px;
+}
+
+.form-search input {
+  width: 400px;
+  height: 45px; 
+  border-radius: 0;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 8px;
+  font-family: Lato;
+  border: 1px solid #CCCCCC;
+}
+
+#search-btn {
+  background: none;
+  background-image: none;
+  padding: 18px 40px;
+  color: white;
+  font-weight: 300;
+  font-family: Lato;
+  font-size: 20px;
+  border: 1px solid white;
+  border-radius: 0;
+  text-shadow: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background: #27AE60;
+  opacity: 1;
+  margin-left: 10px;
+}
+
+#search-btn:hover {
+  background: #1a994f;
+  color: white;
+  opacity: 1;
+}
+
+.icon-search {
+  margin-top: 0px;
+  margin-left: 3px;
+}
+
+/**************
+*** Explore ***
+***************/
+
+.explore {
+  width: 960px;
+  background: white;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.explore h1 {
+  margin: 0;
+  font-family: Varela;
+  color: #777677;
+  padding-top: 70px;
+  font-size: 35px;
+  padding-bottom: 55px;
+}
+
+.explore div {
+  width: 280px;
+  height: 175px;
+  margin-left: 25px;
+  margin-left: 25px;
+  margin-bottom: 50px;
+}
+
+.explore>a {
+  font-family: Varela;
+  color: #316EB5;
+  font-size: 20px;
+}
+
+.explore div h1 {
+  color: white;
+  font-family: Varela;
+  padding: 0;
+  padding-top: 65px;
+  font-size: 30px;
+  margin: 0;
+}
+
+.explore div h3 {
+  color: white;
+  font-family: Varela;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 100%;
+  display: none;
+}
+
+
+.explore div:hover {
+  cursor: pointer;
+}
+
+.padding-left {
+  padding-left: 0px;
+}
+
+.nfl {
+  background: url('../images/nfl-sprite.png') no-repeat top center;
+}
+
+.nfl:hover {
+  background: url('../images/nfl-sprite.png') no-repeat bottom center;
+}
+
+.ncaa {
+  background: url('../images/ncaa-sprite.png') no-repeat top center;
+}
+
+.ncaa:hover {
+  background: url('../images/ncaa-sprite.png') no-repeat bottom center;
+}
+
+.nba {
+  background: url('../images/nba-sprite.png') no-repeat top center;
+}
+
+.nba:hover {
+  background: url('../images/nba-sprite.png') no-repeat bottom center;
+}
+
+.rock {
+  background: url('../images/rock-sprite.png') no-repeat top center;
+}
+
+.rock:hover {
+  background: url('../images/rock-sprite.png') no-repeat bottom center;
+}
+
+.country {
+  background: url('../images/country-sprite.png') no-repeat top center;
+}
+
+.country:hover {
+  background: url('../images/country-sprite.png') no-repeat bottom center;
+}
+
+.theater {
+  background: url('../images/theater-sprite.png') no-repeat top center;
+}
+
+.theater:hover {
+  background: url('../images/theater-sprite.png') no-repeat bottom center;
+}
+
+
+/**************
+*** Footer  ***
+***************/
+
+footer {
+  width: 100%;
+  background: #316EB5;
+  height: 60px;
+  margin: 0 auto;
+}
+
+footer ul {
+  padding-left: 90px;
+  padding-top: 15px;
+}
+
+.footer-bar>li {
+  background: #316EB5;
+  margin-right: 10px;
+  border: solid 1px #316EB5;
+}
+
+.footer-bar>li:hover {
+  border: solid 1px #316EB5;
+}
+
+
+.footer-bar>li>a {
+  color: white;
+}
+
+.footer-bar>li>a:hover {
+  color: white;
+  background-color: #316EB5;
+}
+
+.footer-bar>li:hover {
+  color: white;
+  border: solid 1px white;
+}
