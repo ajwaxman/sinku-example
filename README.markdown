@@ -1,22 +1,9 @@
-# Sinku
+# Sinku Example App
 
-Sinku is a starting point for deploying Sinatra to Heroku.  It allows you to get a website live on a remote URL in under 30 seconds.
+I wanted to check out Jack G's Sinku repo for easily deploying Sinatra apps onto Heroku. 
 
-Sinku also includes [Twitter Bootstrap](https://github.com/twbs/bootstrap) for default styling and [Shotgun](https://github.com/rtomayko/shotgun) for automatic reloading.
+For my example app I built a landing page concept for SeatGeek.
 
-To quickly deploy a Sinatra app to Heroku:
+Existing SeatGeek Homepage: https://seatgeek.com
 
-```
-mkdir -p ~/Sites/project && cd ~/Sites/project
-git clone https://github.com/jack7890/Sinku.git ./
-bundle install
-heroku create
-git push heroku master
-heroku open
-```
-
-To load your app locally via Shotgun:
-
-```
-shotgun -I. index.rb
-```
+My Landing Page Concept: http://immense-waters-1386.herokuapp.com
